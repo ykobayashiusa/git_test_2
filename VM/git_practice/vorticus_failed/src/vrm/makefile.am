@@ -1,0 +1,8 @@
+noinst_PROGRAMS    = vrmtest 
+noinst_LTLIBRARIES = libvrm.la
+
+libvrm_la_SOURCES =
+
+vrmtest_SOURCES = vrmtest.cpp
+vrmtest_LDADD = ../math/libmath.la ../geometry/libgeometry.la
+vrmtest_LDFLAGS = -lopenblas

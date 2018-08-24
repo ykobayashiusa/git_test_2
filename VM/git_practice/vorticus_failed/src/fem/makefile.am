@@ -1,0 +1,10 @@
+noinst_LTLIBRARIES = libfem.la
+noinst_PROGRAMS  = test_mesh fem_solver # test_potentials
+libfem_la_SOURCES = gmsh_reader.cpp #biot_savart.cpp   potentials.cpp
+test_mesh_SOURCES = test_mesh.cpp
+test_mesh_LDADD   = libfem.la $(BLAS_LIBS) $(BOOST_REGEX_LIB) $(AM_LDADD)
+fem_solver_SOURCES = fem_solver.cpp
+fem_solver_LDADD = libfem.la $(BLAS_LIBS) $(BOOST_REGEX_LIB) $(AM_LDADD) #$(AM_LDADD)
+
+#test_potentials_SOURCES = test_potentials.cpp
+#test_potentials_LDADD   = ../geometry/libgeometry.la libfem.la ../geometry/libgeometry.la $(AM_LDADD)

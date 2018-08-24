@@ -1,0 +1,6 @@
+noinst_LTLIBRARIES = libgeometry.la
+libgeometry_la_SOURCES = tensor.cpp box.cpp sphere.cpp \
+                          triangular_quadrules.cpp     \
+                         tetrahedral_quadrules.cpp     \
+                             cubical_quadrules.cpp     \
+                             tetgen.cpp predicates.cpp

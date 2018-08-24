@@ -1,0 +1,2 @@
+noinst_LTLIBRARIES = libfmm.la
+libfmm_la_SOURCES = 

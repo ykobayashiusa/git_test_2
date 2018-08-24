@@ -1,0 +1,19 @@
+This software makes use of the awesome Armadillo library.
+
+ Conrad Sanderson.
+ Armadillo: An Open Source C++ Linear Algebra Library for
+ Fast Prototyping and Computationally Intensive Experiments.
+ Technical Report, NICTA, 2010.
+
+
+The GMRES solver used found in the math/gmres.h is based on the code from the
+IML++ library, which can be found at:
+
+ http://math.nist.gov/iml++
+
+ and
+
+ http://gams.nist.gov/cgi-bin/serve.cgi/Package/IML++
+
+According to the latter reference, the software lies in the public domain.
+

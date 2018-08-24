@@ -1,0 +1,2 @@
+noinst_LTLIBRARIES = libbem.la
+libbem_la_SOURCES =

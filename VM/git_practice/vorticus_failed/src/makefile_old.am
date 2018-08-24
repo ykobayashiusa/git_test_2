@@ -1,0 +1,20 @@
+SUBDIRS = math geometry fmm bem misc vrm fem unity
+noinst_PROGRAMS = pufem_paper pufem_paper_velo pufem_paper_cond biot_paper
+noinst_LTLIBRARIES = libvorticus.la
+
+libvorticus_la_SOURCES =
+libvorticus_la_LIBADD  = math/libmath.la geometry/libgeometry.la fmm/libfmm.la \
+                         bem/libbem.la misc/libmisc.la vrm/libvrm.la fem/libfem.la \
+                         unity/libunity.la
+
+pufem_paper_SOURCES = pufem_paper.cpp
+pufem_paper_LDADD   = libvorticus.la $(BLAS_LIBS) $(BOOST_REGEX_LIB) $(AM_LDADD) 
+
+pufem_paper_velo_SOURCES = pufem_paper_velo.cpp
+pufem_paper_velo_LDADD   = libvorticus.la $(BLAS_LIBS) $(BOOST_REGEX_LIB) $(AM_LDADD) 
+
+pufem_paper_cond_SOURCES = pufem_paper_cond.cpp
+pufem_paper_cond_LDADD   = libvorticus.la $(BLAS_LIBS) $(BOOST_REGEX_LIB) $(AM_LDADD) 
+
+biot_paper_SOURCES = biot_paper.cpp
+biot_paper_LDADD   = libvorticus.la $(AM_LDADD) 

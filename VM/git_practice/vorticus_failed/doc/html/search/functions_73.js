@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['s',['s',['../a00047.html#ac71dd96600bd068b8f82d5b5726f49d8',1,'geometry::triangle']]],
+  ['scal_5fprod',['scal_prod',['../a00145.html#a1a74c4c64b1aa1406329e661a848e7b9',1,'geometry::scal_prod(const cmplx_point &amp;lhs, const cmplx_point &amp;rhs)'],['../a00145.html#a186483c2f4763c871ef0396268c5a604',1,'geometry::scal_prod(const point &amp;lhs, const point &amp;rhs) noexcept']]],
+  ['search',['search',['../a00025.html#ad8e1175df16ace5692113fd8d326e6fe',1,'geometry::kdtree']]],
+  ['self_5fintegrand',['self_integrand',['../a00140.html#a24cf83a84c9b343cd029839647f3bf5b',1,'bem']]],
+  ['set_5fdel_5fmark',['set_del_mark',['../a00048.html#a53294e383b1fa0710e91401164564968',1,'bem::triangle']]],
+  ['set_5fnode',['set_node',['../a00047.html#af88cb6801f617eec0b7d6dd979016dd1',1,'geometry::triangle']]],
+  ['set_5fnoref_5fmark',['set_noref_mark',['../a00048.html#aeaf521195aa3520f8d67c35e3875dce6',1,'bem::triangle']]],
+  ['set_5fref_5fmark',['set_ref_mark',['../a00048.html#a069cd8eb7cbfd4f08c3e7eb78ddb2210',1,'bem::triangle']]],
+  ['sheet_5ffunctional',['sheet_functional',['../a00140.html#a1b19fae4b0dbbe1c12d4c88c04e1d82c',1,'bem']]],
+  ['simplex',['simplex',['../a00042.html#a68bf8157e29cc4198b59a9fdea08075e',1,'vrm::simplex::simplex(int p_constraints, int p_variables)'],['../a00042.html#a3f3f6b519551b2ce438252830a8cda14',1,'vrm::simplex::simplex(const simplex &amp;rhs)']]],
+  ['simulate',['simulate',['../a00149.html#a9664a371025e5570a8c8ace6a53e8831',1,'vrm']]],
+  ['size',['size',['../a00016.html#a2e9718f842323d55c15519cbde5c7583',1,'bem::grid_function::size()'],['../a00015.html#a16d60ee661c97ec2a2d8a55a3306597d',1,'bem::multigrid::grid::size()'],['../a00025.html#a338c583e87e4a65c8b70f1bb975a5480',1,'geometry::kdtree::size()'],['../a00141.html#a867d1f6fbe55ea947de9890f2d0c68b8',1,'bem::lattice::size()']]],
+  ['size_3c_201_20_3e',['size&lt; 1 &gt;',['../a00141.html#aba27cf597b4610d56c9c25ab2c3857c0',1,'bem::lattice']]],
+  ['size_3c_202_20_3e',['size&lt; 2 &gt;',['../a00141.html#aa0a71543a98e279cc3f8d10ae2ff0e81',1,'bem::lattice']]],
+  ['size_3c_203_20_3e',['size&lt; 3 &gt;',['../a00141.html#a25b06602ed3d52d020eaa8fa1d69399a',1,'bem::lattice']]],
+  ['size_3c_204_20_3e',['size&lt; 4 &gt;',['../a00141.html#a88a0f6a47d1e5146e69f6492646ee9c2',1,'bem::lattice']]],
+  ['smooth',['smooth',['../a00043.html#aa9324811619582b36e62048636a3e342',1,'bem::solver']]],
+  ['solve',['solve',['../a00043.html#ac6574ffffe8c44f50c193967a4faa442',1,'bem::solver::solve()'],['../a00042.html#a6aa63ec71b02e9865554f92c2d0a0d3e',1,'vrm::simplex::solve()'],['../a00081.html#a0844379cc9b09696b51a9ed1126f6d45',1,'solve():&#160;test.cpp']]],
+  ['solver',['solver',['../a00043.html#ae5fc002c31bad1bb3264b00f22f1568f',1,'bem::solver']]],
+  ['split',['split',['../a00029.html#ab1e6736bb79473933400979a2abf773a',1,'bem::multigrid::split()'],['../a00007.html#a4d7d93c87ed35bf8586fb2cc09750904',1,'fmm::box::split()']]],
+  ['surf_5felem',['surf_elem',['../a00048.html#acaaad61bcad99ed776331a3a3b87c8fc',1,'bem::triangle']]],
+  ['surface',['surface',['../a00006.html#ad05f4362eabba3fb8aba816c76367b07',1,'geometry::bounding_box']]]
+];
